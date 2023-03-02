@@ -13,10 +13,15 @@ The filtering fields(based on data-table fields) options including:
 1. txt input fields, which means entries contain any characters in input-field
 2. single select fields
 3. Multiple-select fields
-
+4. subStructure query (Only for drugs with mol fields) 
 
 On each list-view for data-table, the list table header is a sorting header, meaning the table is sortable by Asc or
 Desc ordering per the table header field via dubleclick the table headers.
+
+Filter-Substructrue query
+---------------------------
+On the filter sidebar for Drug Cards View, a subStructure query option is provided. To use it, clicke chosen item's image and edit Structure showing in the pop window's canvas, then
+click get smiles button, close the window turn back to filter fields, click apply to call backend model perform rdkit hassubstructure function search in the corresponded data table.
 
 Export
 ---------
