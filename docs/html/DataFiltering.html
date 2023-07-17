@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Filters &#8212; COADD_README 1.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
-    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -36,28 +35,21 @@
           <div class="body" role="main">
             
   <section id="filters">
-<h1>Filters<a class="headerlink" href="#filters" title="Permalink to this heading">¶</a></h1>
+<h1>Filters<a class="headerlink" href="#filters" title="Permalink to this headline">¶</a></h1>
 <section id="main-filter-with-options">
-<h2>Main Filter with options<a class="headerlink" href="#main-filter-with-options" title="Permalink to this heading">¶</a></h2>
-<blockquote>
-<div><ul class="simple">
-<li><p>all fields search - search all colums of a datatable. Specially,for foreignkey columns the searching will either go through related tables</p></li>
-</ul>
-</div></blockquote>
-<dl class="simple">
-<dt>with all columns via search all tables selected or only primary column in the related table.</dt><dd><ul class="simple">
+<h2>Main Filter with options<a class="headerlink" href="#main-filter-with-options" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>all fields search - search all colums of a datatable. Specially,for foreignkey columns the searching will either go through related tables with all columns via search all tables selected or only primary column in the related table.</p></li>
 <li><p>select how many data rows per page</p></li>
 <li><p>select columns of the data table in combined condition</p></li>
 </ul>
-</dd>
-</dl>
 </section>
 <section id="filter-table">
-<h2>Filter Table<a class="headerlink" href="#filter-table" title="Permalink to this heading">¶</a></h2>
+<h2>Filter Table<a class="headerlink" href="#filter-table" title="Permalink to this headline">¶</a></h2>
 <p>Filter table contain single field filter under the table header.</p>
 </section>
 <section id="sorting">
-<h2>sorting<a class="headerlink" href="#sorting" title="Permalink to this heading">¶</a></h2>
+<h2>Sorting<a class="headerlink" href="#sorting" title="Permalink to this headline">¶</a></h2>
 <p>For general read datatable double click table header column; For editable table in Organism detail view single click table header.</p>
 </section>
 </section>
@@ -80,15 +72,16 @@
 
 <h3>Navigation</h3>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="Installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="CRUDViews.html">CRUDViews</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Filters</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#main-filter-with-options">Main Filter with options</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#filter-table">Filter Table</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#sorting">sorting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sorting">Sorting</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="PivotTable.html">Pivot Table</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Create%20Simple%20New.html">Create New Module</a></li>
 </ul>
 
 <div class="relations">
@@ -109,7 +102,7 @@
     </form>
     </div>
 </div>
-<script>document.getElementById('searchbox').style.display = "block"</script>
+<script>$('#searchbox').show(0);</script>
 
 
 
@@ -126,7 +119,7 @@
       &copy;2023, test.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.4.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

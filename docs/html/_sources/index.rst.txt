@@ -7,9 +7,9 @@ Welcome to COADD_README's documentation!
 ========================================
 **COADD** is a database-driven web application, currently connected with organism database, which contains 6 main applications: apputil, dcollab, ddrug, dgene, dorganism, dscreen. 
 The main functions are:
- * providing database CRUD views
- * screening data from OrgDB database
- * data pivot table view. 
+* providing database CRUD views
+* screening data from OrgDB database
+* data pivot table view. 
 
 Check out the :doc:`installation` section for further information. including how to
 :ref:`setup <setup>` the project environment.
@@ -18,10 +18,11 @@ Check out the :doc:`installation` section for further information. including how
    This project is under active development.
 
 .. toctree::
-   Installation
+   installation
    CRUDViews
    DataFiltering
    PivotTable
+   Create Simple New
 
 
 

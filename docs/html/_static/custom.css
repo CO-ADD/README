@@ -1,7 +1,10 @@
-.body{
+/* .body{
     height: 100vh;
     width: 100vh;
-}
+} */
 div.document{
     margin-left:0!important;
+}
+div.footer{
+    margin-bottom:0;
 }
